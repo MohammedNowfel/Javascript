@@ -63,12 +63,12 @@ function function2(){
 function1(function2()); // Passing function2 as a callback to function1 and function1 as a higher order function to function2
 
 
-// Eg
+// Eg for callback function
 
-function addition(callback, a, b){
+function addition(subtraction, a, b){
     console.log(a+b);
-    callback(20,10)
-    
+    subtraction(20,10)
+
 }
 
 function subraction(x,y){
