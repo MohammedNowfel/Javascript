@@ -14,6 +14,7 @@ console.log(generator.next().value);
 console.log(generator.next().done);
 console.log(generator.next());
 
+// Eg 
 
 function* url(){
     yield "http:/"
