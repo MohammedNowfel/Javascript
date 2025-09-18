@@ -20,7 +20,7 @@ console.log(p,t);
 
 let array = [1,2,3,4,5,6,7,8,9,0];
 
-let [a1,a2,a3,...an] = array;   // rest operator (...) must be in last position
+let [a1,a2,a3,...an] = array;   // rest operator (...) must be in last position 
 
 console.log(a1,a2,a3, an);
 
@@ -29,7 +29,7 @@ console.log(a1,a2,a3, an);
 
 let nestArr = [10,20, 30, [40,50,60,[70,80,90]]];
 
-let [n1,n2,n3,[n4,n5,n6,[n7,n8,n9]]] = nestArr;
+let [n1,n2,n3,[n4,n5,n6,[n7,n8,n9]]] = nestArr;    // set default names for all elements for the array
 
 console.log(n2,n5,n8);
 
