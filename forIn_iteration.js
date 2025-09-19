@@ -24,9 +24,9 @@ for(let key in person1){
 
 let fruits = ['apple', 'banana', 'mango', 'pineapple', 'watermelon'];
 
-for(let key in fruits){
+for(let value in fruits){
 
-    console.log(fruits[key]);
+    console.log(fruits[value]);
     
 }
 
